@@ -9,7 +9,6 @@ import org.example.layered.dto.MemoRequestDto;
 @AllArgsConstructor
 public class Memo {
 
-    @Setter
     private Long id;
     private String title;
     private String contents;
